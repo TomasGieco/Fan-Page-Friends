@@ -1,0 +1,115 @@
+  body {
+      background: rgb(0, 254, 254);
+      background: green;
+      background: linear-gradient(180deg, rgb(1, 224, 224) 0%, rgba(0, 104, 55, 1) 100%);
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+  main {
+      width: 900px;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 100px;
+      background: white;
+  }
+  
+  header {
+      background-image: url(../Imagenes/Friends.jpg);
+      background-repeat: no-repeat;
+      height: 550px;
+  }
+  
+  .Descripción {
+      margin: 25px;
+      background-color: #e6f3ed;
+      padding: 15px 23px;
+      padding-bottom: 25px;
+      border-radius: 20px;
+      border: 1px solid #8de4bc;
+  }
+  
+  img {
+      border-radius: 25px
+  }
+  
+  article.Sinopsis img {
+      float: right;
+      margin-left: 30px;
+      margin-top: 0px;
+  }
+  
+  h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 60px;
+      height: 60px;
+      background: rgba(212, 17, 17, 0.8);
+      padding: 8px 14px 0px 15px;
+      display: inline-block;
+      position: relative;
+      left: 0px;
+      top: 430px;
+  }
+  
+  h2 {
+      color: #FF8C00;
+      font-style: bold;
+  }
+  
+  .Sinopsis {
+      margin: 25px;
+  }
+  
+  footer {
+      background-color: lightblue;
+      color: #fff;
+      height: 60px;
+  }
+  
+  footer p {
+      color: black;
+      padding: 20px;
+  }
+  
+  a.btn {
+      background: #EE5A24;
+      color: #ffffff;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      border-radius: 20px;
+  }
+  
+  a.btn:hover {
+      background: #006837;
+      cursor: pointer;
+  }
+  
+  table {
+      background-color: #efebeb;
+      color: #000000;
+      border-width: 1px;
+      border-color: #bbbbbb;
+      border-style: solid;
+      color: #000000;
+      border-collapse: collapse;
+  }
+  
+  table thead th {
+      background-color: #3d8c67;
+      color: #fff;
+  }
+  
+  table td,
+  table th {
+      padding: 10px 15px;
+      border: 2px solid #bbbbbb;
+  }
+  
+  table tr.verde {
+      background-color: #C6EDDB;
+      color: #006837;
+      font-weight: bold;
+  }
+  
+  .Primario {
+      padding: 25px;
+  }
